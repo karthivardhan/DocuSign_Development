@@ -1,0 +1,590 @@
+1659120676684	geckodriver	INFO	Listening on 127.0.0.1:56026
+1659120677174	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "--remote-debugging-port" "56027" "--remote-allow-hosts" "localhost" "-foreground" "-no-remote" "-profile" "/var/folders/0n/0rs04wb94fg8k0sbqntcfrlm0000gn/T/rust_mozprofileMikBXT"
+1659120706301	Marionette	INFO	Marionette enabled
+2022-07-30 00:21:46.468 plugin-container[6411:87405] nil host used in call to allowsSpecificHTTPSCertificateForHost
+2022-07-30 00:21:46.469 plugin-container[6411:87405] nil host used in call to allowsAnyHTTPSCertificateForHost:
+2022-07-30 00:21:46.517 plugin-container[6411:87405] nil host used in call to allowsSpecificHTTPSCertificateForHost
+2022-07-30 00:21:46.517 plugin-container[6411:87405] nil host used in call to allowsAnyHTTPSCertificateForHost:
+2022-07-30 00:21:46.518 plugin-container[6411:87407] nil host used in call to allowsSpecificHTTPSCertificateForHost
+2022-07-30 00:21:46.518 plugin-container[6411:87407] nil host used in call to allowsAnyHTTPSCertificateForHost:
+1659120706647	Marionette	INFO	Listening on port 56154
+WebDriver BiDi listening on ws://localhost:56027
+Read port: 56154
+1659120706886	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /var/folders/0n/0rs04wb94fg8k0sbqntcfrlm0000gn/T/rust_mozprofileMikBXT/search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:56027/devtools/browser/fe1e3771-ded2-4db9-9937-ad0e1c0365ad
+JavaScript error: resource://gre/modules/URIFixup.jsm, line 278: NS_ERROR_FAILURE: Should pass a non-null uri
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://account-d.docusign.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://account-d.docusign.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://account-d.docusign.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://account-d.docusign.com"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://account-d.docusign.com"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://account-d.docusign.com"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://account-d.docusign.com"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://account-d.docusign.com"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://account-d.docusign.com"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://account-d.docusign.com"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+1659120797973	Marionette	INFO	Stopped listening on port 56154
+1659121613973	geckodriver	INFO	Listening on 127.0.0.1:59957
+1659121614483	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "--remote-debugging-port" "59958" "--remote-allow-hosts" "localhost" "-foreground" "-no-remote" "-profile" "/var/folders/0n/0rs04wb94fg8k0sbqntcfrlm0000gn/T/rust_mozprofilezTo7hU"
+1659121616581	Marionette	INFO	Marionette enabled
+1659121616774	Marionette	INFO	Listening on port 59977
+WebDriver BiDi listening on ws://localhost:59958
+Read port: 59977
+2022-07-30 00:36:56.922 plugin-container[6620:94022] nil host used in call to allowsSpecificHTTPSCertificateForHost
+2022-07-30 00:36:56.923 plugin-container[6620:94022] nil host used in call to allowsAnyHTTPSCertificateForHost:
+1659121617050	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+2022-07-30 00:36:57.178 plugin-container[6620:94022] nil host used in call to allowsSpecificHTTPSCertificateForHost
+2022-07-30 00:36:57.178 plugin-container[6620:94022] nil host used in call to allowsAnyHTTPSCertificateForHost:
+2022-07-30 00:36:57.178 plugin-container[6620:94050] nil host used in call to allowsSpecificHTTPSCertificateForHost
+2022-07-30 00:36:57.178 plugin-container[6620:94050] nil host used in call to allowsAnyHTTPSCertificateForHost:
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /var/folders/0n/0rs04wb94fg8k0sbqntcfrlm0000gn/T/rust_mozprofilezTo7hU/search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:59958/devtools/browser/8abdb6ba-d85a-40a1-ac36-f4cf7c5caa2a
+JavaScript error: resource://gre/modules/URIFixup.jsm, line 278: NS_ERROR_FAILURE: Should pass a non-null uri
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://account-d.docusign.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://account-d.docusign.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://account-d.docusign.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://account-d.docusign.com"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://account-d.docusign.com"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://account-d.docusign.com"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://account-d.docusign.com"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://account-d.docusign.com"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+1659121709175	Marionette	INFO	Stopped listening on port 59977
+1659121751021	geckodriver	INFO	Listening on 127.0.0.1:60590
+1659121751533	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "--remote-debugging-port" "60591" "--remote-allow-hosts" "localhost" "-foreground" "-no-remote" "-profile" "/var/folders/0n/0rs04wb94fg8k0sbqntcfrlm0000gn/T/rust_mozprofileA98jFA"
+1659121753330	Marionette	INFO	Marionette enabled
+1659121753511	Marionette	INFO	Listening on port 60606
+WebDriver BiDi listening on ws://localhost:60591
+2022-07-30 00:39:13.567 plugin-container[6666:95313] nil host used in call to allowsSpecificHTTPSCertificateForHost
+2022-07-30 00:39:13.570 plugin-container[6666:95313] nil host used in call to allowsAnyHTTPSCertificateForHost:
+Read port: 60606
+1659121753878	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+2022-07-30 00:39:14.045 plugin-container[6666:95313] nil host used in call to allowsSpecificHTTPSCertificateForHost
+2022-07-30 00:39:14.045 plugin-container[6666:95313] nil host used in call to allowsAnyHTTPSCertificateForHost:
+2022-07-30 00:39:14.046 plugin-container[6666:95365] nil host used in call to allowsSpecificHTTPSCertificateForHost
+2022-07-30 00:39:14.046 plugin-container[6666:95365] nil host used in call to allowsAnyHTTPSCertificateForHost:
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /var/folders/0n/0rs04wb94fg8k0sbqntcfrlm0000gn/T/rust_mozprofileA98jFA/search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:60591/devtools/browser/68a07a76-4493-4567-b891-a7db045e7dd2
+JavaScript error: resource://gre/modules/URIFixup.jsm, line 278: NS_ERROR_FAILURE: Should pass a non-null uri
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://account-d.docusign.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://account-d.docusign.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://account-d.docusign.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://account-d.docusign.com"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://account-d.docusign.com"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://account-d.docusign.com"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://account-d.docusign.com"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://account-d.docusign.com"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+1659121845782	Marionette	INFO	Stopped listening on port 60606
+1659170756640	geckodriver	INFO	Listening on 127.0.0.1:63324
+1659170757148	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "--remote-debugging-port" "63325" "--remote-allow-hosts" "localhost" "-foreground" "-no-remote" "-profile" "/var/folders/0n/0rs04wb94fg8k0sbqntcfrlm0000gn/T/rust_mozprofileVNOjRF"
+1659170759553	Marionette	INFO	Marionette enabled
+1659170760073	Marionette	INFO	Listening on port 63346
+WebDriver BiDi listening on ws://localhost:63325
+Read port: 63346
+2022-07-30 14:16:00.289 plugin-container[9054:160787] nil host used in call to allowsSpecificHTTPSCertificateForHost
+2022-07-30 14:16:00.290 plugin-container[9054:160787] nil host used in call to allowsAnyHTTPSCertificateForHost:
+1659170760492	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+2022-07-30 14:16:01.436 plugin-container[9054:160787] nil host used in call to allowsSpecificHTTPSCertificateForHost
+2022-07-30 14:16:01.436 plugin-container[9054:160787] nil host used in call to allowsAnyHTTPSCertificateForHost:
+2022-07-30 14:16:01.438 plugin-container[9054:160885] nil host used in call to allowsSpecificHTTPSCertificateForHost
+2022-07-30 14:16:01.438 plugin-container[9054:160885] nil host used in call to allowsAnyHTTPSCertificateForHost:
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /var/folders/0n/0rs04wb94fg8k0sbqntcfrlm0000gn/T/rust_mozprofileVNOjRF/search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:63325/devtools/browser/d90d8430-2af2-4e8a-b51e-04ff59a14714
+JavaScript error: resource://gre/modules/URIFixup.jsm, line 278: NS_ERROR_FAILURE: Should pass a non-null uri
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://account-d.docusign.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://account-d.docusign.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://account-d.docusign.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://account-d.docusign.com"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://account-d.docusign.com"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://account-d.docusign.com"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://account-d.docusign.com"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://account-d.docusign.com"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://account-d.docusign.com"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://account-d.docusign.com"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+1659170853903	Marionette	INFO	Stopped listening on port 63346
+1659172076595	geckodriver	INFO	Listening on 127.0.0.1:50384
+1659172077123	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "--remote-debugging-port" "50385" "--remote-allow-hosts" "localhost" "-foreground" "-no-remote" "-profile" "/var/folders/0n/0rs04wb94fg8k0sbqntcfrlm0000gn/T/rust_mozprofileSV7qo1"
+1659172079258	Marionette	INFO	Marionette enabled
+2022-07-30 14:37:59.509 plugin-container[9292:167635] nil host used in call to allowsSpecificHTTPSCertificateForHost
+2022-07-30 14:37:59.510 plugin-container[9292:167635] nil host used in call to allowsAnyHTTPSCertificateForHost:
+1659172079619	Marionette	INFO	Listening on port 50404
+WebDriver BiDi listening on ws://localhost:50385
+Read port: 50404
+1659172080013	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+2022-07-30 14:38:00.145 plugin-container[9292:167635] nil host used in call to allowsSpecificHTTPSCertificateForHost
+2022-07-30 14:38:00.145 plugin-container[9292:167635] nil host used in call to allowsAnyHTTPSCertificateForHost:
+2022-07-30 14:38:00.146 plugin-container[9292:167638] nil host used in call to allowsSpecificHTTPSCertificateForHost
+2022-07-30 14:38:00.146 plugin-container[9292:167638] nil host used in call to allowsAnyHTTPSCertificateForHost:
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /var/folders/0n/0rs04wb94fg8k0sbqntcfrlm0000gn/T/rust_mozprofileSV7qo1/search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:50385/devtools/browser/3d2c66d8-9ca5-4126-85e1-7d59a08dbf20
+JavaScript error: resource://gre/modules/URIFixup.jsm, line 278: NS_ERROR_FAILURE: Should pass a non-null uri
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://account-d.docusign.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://account-d.docusign.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://account-d.docusign.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://account-d.docusign.com"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://account-d.docusign.com"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://account-d.docusign.com"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://account-d.docusign.com"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://account-d.docusign.com"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+1659172175803	Marionette	INFO	Stopped listening on port 50404
+1659201875223	geckodriver	INFO	Listening on 127.0.0.1:53495
+1659201875752	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "--remote-debugging-port" "53496" "--remote-allow-hosts" "localhost" "-foreground" "-no-remote" "-profile" "/var/folders/0n/0rs04wb94fg8k0sbqntcfrlm0000gn/T/rust_mozprofileVnvDv7"
+1659201877638	Marionette	INFO	Marionette enabled
+2022-07-30 22:54:37.853 plugin-container[10773:210252] nil host used in call to allowsSpecificHTTPSCertificateForHost
+2022-07-30 22:54:37.854 plugin-container[10773:210252] nil host used in call to allowsAnyHTTPSCertificateForHost:
+1659201877909	Marionette	INFO	Listening on port 53515
+WebDriver BiDi listening on ws://localhost:53496
+Read port: 53515
+2022-07-30 22:54:38.252 plugin-container[10773:210252] nil host used in call to allowsSpecificHTTPSCertificateForHost
+2022-07-30 22:54:38.252 plugin-container[10773:210252] nil host used in call to allowsAnyHTTPSCertificateForHost:
+2022-07-30 22:54:38.252 plugin-container[10773:210249] nil host used in call to allowsSpecificHTTPSCertificateForHost
+2022-07-30 22:54:38.252 plugin-container[10773:210249] nil host used in call to allowsAnyHTTPSCertificateForHost:
+1659201878356	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /var/folders/0n/0rs04wb94fg8k0sbqntcfrlm0000gn/T/rust_mozprofileVnvDv7/search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:53496/devtools/browser/378f38e6-cc77-4d8c-9c9c-66b2c59d5a40
+JavaScript error: resource://gre/modules/URIFixup.jsm, line 278: NS_ERROR_FAILURE: Should pass a non-null uri
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://account-d.docusign.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://account-d.docusign.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://account-d.docusign.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://account-d.docusign.com"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://account-d.docusign.com"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://account-d.docusign.com"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://account-d.docusign.com"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://account-d.docusign.com"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+1659201970022	Marionette	INFO	Stopped listening on port 53515
+1659202448518	geckodriver	INFO	Listening on 127.0.0.1:55881
+1659202449031	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "--remote-debugging-port" "55882" "--remote-allow-hosts" "localhost" "-foreground" "-no-remote" "-profile" "/var/folders/0n/0rs04wb94fg8k0sbqntcfrlm0000gn/T/rust_mozprofilev7rYet"
+1659202450788	Marionette	INFO	Marionette enabled
+2022-07-30 23:04:10.984 plugin-container[10910:213895] nil host used in call to allowsSpecificHTTPSCertificateForHost
+2022-07-30 23:04:10.985 plugin-container[10910:213895] nil host used in call to allowsAnyHTTPSCertificateForHost:
+1659202451045	Marionette	INFO	Listening on port 55901
+WebDriver BiDi listening on ws://localhost:55882
+Read port: 55901
+2022-07-30 23:04:11.572 plugin-container[10910:213895] nil host used in call to allowsSpecificHTTPSCertificateForHost
+2022-07-30 23:04:11.573 plugin-container[10910:213895] nil host used in call to allowsAnyHTTPSCertificateForHost:
+2022-07-30 23:04:11.574 plugin-container[10910:213932] nil host used in call to allowsSpecificHTTPSCertificateForHost
+2022-07-30 23:04:11.574 plugin-container[10910:213932] nil host used in call to allowsAnyHTTPSCertificateForHost:
+1659202451799	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /var/folders/0n/0rs04wb94fg8k0sbqntcfrlm0000gn/T/rust_mozprofilev7rYet/search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:55882/devtools/browser/a4f6ba22-75aa-48df-88cf-7b4ecab5dee1
+JavaScript error: resource://gre/modules/URIFixup.jsm, line 278: NS_ERROR_FAILURE: Should pass a non-null uri
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://account-d.docusign.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://account-d.docusign.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://account-d.docusign.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://account-d.docusign.com"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://account-d.docusign.com"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://account-d.docusign.com"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://account-d.docusign.com"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://account-d.docusign.com"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://account-d.docusign.com"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://account-d.docusign.com"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+1659202549212	Marionette	INFO	Stopped listening on port 55901
+1659203178455	geckodriver	INFO	Listening on 127.0.0.1:58942
+1659203178974	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "--remote-debugging-port" "58943" "--remote-allow-hosts" "localhost" "-foreground" "-no-remote" "-profile" "/var/folders/0n/0rs04wb94fg8k0sbqntcfrlm0000gn/T/rust_mozprofileTOlbwP"
+1659203180886	Marionette	INFO	Marionette enabled
+2022-07-30 23:16:21.058 plugin-container[11206:220743] nil host used in call to allowsSpecificHTTPSCertificateForHost
+2022-07-30 23:16:21.059 plugin-container[11206:220743] nil host used in call to allowsAnyHTTPSCertificateForHost:
+1659203181105	Marionette	INFO	Listening on port 58962
+WebDriver BiDi listening on ws://localhost:58943
+Read port: 58962
+2022-07-30 23:16:21.466 plugin-container[11206:220743] nil host used in call to allowsSpecificHTTPSCertificateForHost
+2022-07-30 23:16:21.479 plugin-container[11206:220743] nil host used in call to allowsAnyHTTPSCertificateForHost:
+2022-07-30 23:16:21.480 plugin-container[11206:220767] nil host used in call to allowsSpecificHTTPSCertificateForHost
+2022-07-30 23:16:21.480 plugin-container[11206:220767] nil host used in call to allowsAnyHTTPSCertificateForHost:
+1659203181601	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /var/folders/0n/0rs04wb94fg8k0sbqntcfrlm0000gn/T/rust_mozprofileTOlbwP/search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:58943/devtools/browser/8cdb6d8e-dbab-4e14-9e9b-9fbb6696dfd3
+JavaScript error: resource://gre/modules/URIFixup.jsm, line 278: NS_ERROR_FAILURE: Should pass a non-null uri
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://account-d.docusign.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://account-d.docusign.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://account-d.docusign.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://account-d.docusign.com"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://account-d.docusign.com"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://account-d.docusign.com"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://account-d.docusign.com"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://account-d.docusign.com"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+1659203262174	Marionette	INFO	Stopped listening on port 58962
+1659203589007	geckodriver	INFO	Listening on 127.0.0.1:60682
+1659203589520	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "--remote-debugging-port" "60683" "--remote-allow-hosts" "localhost" "-foreground" "-no-remote" "-profile" "/var/folders/0n/0rs04wb94fg8k0sbqntcfrlm0000gn/T/rust_mozprofileDBZT2w"
+1659203590867	Marionette	INFO	Marionette enabled
+1659203591077	Marionette	INFO	Listening on port 60698
+Read port: 
+1659203591095	geckodriver::browser	WARN	Failed fo convert  to u16
+WebDriver BiDi listening on ws://localhost:60683
+Read port: 60698
+2022-07-30 23:23:11.315 plugin-container[11292:223204] nil host used in call to allowsSpecificHTTPSCertificateForHost
+2022-07-30 23:23:11.316 plugin-container[11292:223204] nil host used in call to allowsAnyHTTPSCertificateForHost:
+2022-07-30 23:23:11.515 plugin-container[11292:223204] nil host used in call to allowsSpecificHTTPSCertificateForHost
+2022-07-30 23:23:11.515 plugin-container[11292:223204] nil host used in call to allowsAnyHTTPSCertificateForHost:
+2022-07-30 23:23:11.516 plugin-container[11292:223240] nil host used in call to allowsSpecificHTTPSCertificateForHost
+2022-07-30 23:23:11.516 plugin-container[11292:223240] nil host used in call to allowsAnyHTTPSCertificateForHost:
+1659203591673	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /var/folders/0n/0rs04wb94fg8k0sbqntcfrlm0000gn/T/rust_mozprofileDBZT2w/search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:60683/devtools/browser/6c2d4d24-f995-4875-a445-3dd1f7834862
+JavaScript error: resource://gre/modules/URIFixup.jsm, line 278: NS_ERROR_FAILURE: Should pass a non-null uri
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://account-d.docusign.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://account-d.docusign.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://account-d.docusign.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://account-d.docusign.com"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://account-d.docusign.com"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://account-d.docusign.com"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://account-d.docusign.com"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://account-d.docusign.com"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+1659203673461	Marionette	INFO	Stopped listening on port 60698
+1659205003908	geckodriver	INFO	Listening on 127.0.0.1:50073
+1659205004430	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "--remote-debugging-port" "50074" "--remote-allow-hosts" "localhost" "-foreground" "-no-remote" "-profile" "/var/folders/0n/0rs04wb94fg8k0sbqntcfrlm0000gn/T/rust_mozprofileDtWpsR"
+1659205006649	Marionette	INFO	Marionette enabled
+1659205007269	Marionette	INFO	Listening on port 50097
+WebDriver BiDi listening on ws://localhost:50074
+2022-07-30 23:46:47.315 plugin-container[11650:232984] nil host used in call to allowsSpecificHTTPSCertificateForHost
+2022-07-30 23:46:47.315 plugin-container[11650:232984] nil host used in call to allowsAnyHTTPSCertificateForHost:
+Read port: 50097
+1659205007584	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+2022-07-30 23:46:47.839 plugin-container[11650:232984] nil host used in call to allowsSpecificHTTPSCertificateForHost
+2022-07-30 23:46:47.840 plugin-container[11650:232984] nil host used in call to allowsAnyHTTPSCertificateForHost:
+2022-07-30 23:46:47.840 plugin-container[11650:233008] nil host used in call to allowsSpecificHTTPSCertificateForHost
+2022-07-30 23:46:47.840 plugin-container[11650:233008] nil host used in call to allowsAnyHTTPSCertificateForHost:
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /var/folders/0n/0rs04wb94fg8k0sbqntcfrlm0000gn/T/rust_mozprofileDtWpsR/search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:50074/devtools/browser/1e2dacc3-9366-442d-a867-20ea755be179
+JavaScript error: resource://gre/modules/URIFixup.jsm, line 278: NS_ERROR_FAILURE: Should pass a non-null uri
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://account-d.docusign.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://account-d.docusign.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://account-d.docusign.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://account-d.docusign.com"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://account-d.docusign.com"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://account-d.docusign.com"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://account-d.docusign.com"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://account-d.docusign.com"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+1659205089299	Marionette	INFO	Stopped listening on port 50097
+1659205484922	geckodriver	INFO	Listening on 127.0.0.1:52086
+1659205485437	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "--remote-debugging-port" "52087" "--remote-allow-hosts" "localhost" "-foreground" "-no-remote" "-profile" "/var/folders/0n/0rs04wb94fg8k0sbqntcfrlm0000gn/T/rust_mozprofilefpr7qz"
+1659205487126	Marionette	INFO	Marionette enabled
+2022-07-30 23:54:47.445 plugin-container[11763:235997] nil host used in call to allowsSpecificHTTPSCertificateForHost
+2022-07-30 23:54:47.445 plugin-container[11763:235997] nil host used in call to allowsAnyHTTPSCertificateForHost:
+2022-07-30 23:54:47.510 plugin-container[11763:235997] nil host used in call to allowsSpecificHTTPSCertificateForHost
+2022-07-30 23:54:47.510 plugin-container[11763:235997] nil host used in call to allowsAnyHTTPSCertificateForHost:
+2022-07-30 23:54:47.511 plugin-container[11763:236026] nil host used in call to allowsSpecificHTTPSCertificateForHost
+2022-07-30 23:54:47.511 plugin-container[11763:236026] nil host used in call to allowsAnyHTTPSCertificateForHost:
+1659205487545	Marionette	INFO	Listening on port 52102
+WebDriver BiDi listening on ws://localhost:52087
+Read port: 52102
+1659205487878	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /var/folders/0n/0rs04wb94fg8k0sbqntcfrlm0000gn/T/rust_mozprofilefpr7qz/search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:52087/devtools/browser/5322f36e-6f26-491a-a695-cae2afd7822b
+JavaScript error: resource://gre/modules/URIFixup.jsm, line 278: NS_ERROR_FAILURE: Should pass a non-null uri
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://account-d.docusign.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://account-d.docusign.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://account-d.docusign.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://account-d.docusign.com"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://account-d.docusign.com"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://account-d.docusign.com"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://account-d.docusign.com"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://account-d.docusign.com"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+1659205568902	Marionette	INFO	Stopped listening on port 52102
+1659205726885	geckodriver	INFO	Listening on 127.0.0.1:53128
+1659205727398	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "--remote-debugging-port" "53129" "--remote-allow-hosts" "localhost" "-foreground" "-no-remote" "-profile" "/var/folders/0n/0rs04wb94fg8k0sbqntcfrlm0000gn/T/rust_mozprofileGL8Lnc"
+1659205729154	Marionette	INFO	Marionette enabled
+1659205729274	Marionette	INFO	Listening on port 53148
+WebDriver BiDi listening on ws://localhost:53129
+Read port: 53148
+2022-07-30 23:58:49.503 plugin-container[11825:237645] nil host used in call to allowsSpecificHTTPSCertificateForHost
+2022-07-30 23:58:49.504 plugin-container[11825:237645] nil host used in call to allowsAnyHTTPSCertificateForHost:
+1659205729562	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+2022-07-30 23:58:50.022 plugin-container[11825:237645] nil host used in call to allowsSpecificHTTPSCertificateForHost
+2022-07-30 23:58:50.022 plugin-container[11825:237645] nil host used in call to allowsAnyHTTPSCertificateForHost:
+2022-07-30 23:58:50.023 plugin-container[11825:237642] nil host used in call to allowsSpecificHTTPSCertificateForHost
+2022-07-30 23:58:50.023 plugin-container[11825:237642] nil host used in call to allowsAnyHTTPSCertificateForHost:
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /var/folders/0n/0rs04wb94fg8k0sbqntcfrlm0000gn/T/rust_mozprofileGL8Lnc/search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:53129/devtools/browser/5612cc9f-4587-43ff-8e4d-31fdd2c76939
+JavaScript error: resource://gre/modules/URIFixup.jsm, line 278: NS_ERROR_FAILURE: Should pass a non-null uri
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://account-d.docusign.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://account-d.docusign.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://account-d.docusign.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://account-d.docusign.com"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://account-d.docusign.com"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://account-d.docusign.com"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://account-d.docusign.com"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://account-d.docusign.com"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+1659205811211	Marionette	INFO	Stopped listening on port 53148
+1659369790307	geckodriver	INFO	Listening on 127.0.0.1:59742
+1659369790780	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "--remote-debugging-port" "59743" "--remote-allow-hosts" "localhost" "-foreground" "-no-remote" "-profile" "/var/folders/0n/0rs04wb94fg8k0sbqntcfrlm0000gn/T/rust_mozprofilevsBHuA"
+1659369792647	Marionette	INFO	Marionette enabled
+1659369792861	Marionette	INFO	Listening on port 59750
+Read port: 59750
+WebDriver BiDi listening on ws://localhost:59743
+2022-08-01 21:33:12.928 plugin-container[36958:600706] nil host used in call to allowsSpecificHTTPSCertificateForHost
+2022-08-01 21:33:12.930 plugin-container[36958:600706] nil host used in call to allowsAnyHTTPSCertificateForHost:
+2022-08-01 21:33:13.216 plugin-container[36958:600706] nil host used in call to allowsSpecificHTTPSCertificateForHost
+2022-08-01 21:33:13.216 plugin-container[36958:600706] nil host used in call to allowsAnyHTTPSCertificateForHost:
+2022-08-01 21:33:13.217 plugin-container[36958:600704] nil host used in call to allowsSpecificHTTPSCertificateForHost
+2022-08-01 21:33:13.217 plugin-container[36958:600704] nil host used in call to allowsAnyHTTPSCertificateForHost:
+1659369793360	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /var/folders/0n/0rs04wb94fg8k0sbqntcfrlm0000gn/T/rust_mozprofilevsBHuA/search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:59743/devtools/browser/f03e11fc-0789-403d-9ed2-ee52cc7d8ab8
+JavaScript error: resource://gre/modules/URIFixup.jsm, line 278: NS_ERROR_FAILURE: Should pass a non-null uri
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://account-d.docusign.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://account-d.docusign.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://account-d.docusign.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://account-d.docusign.com"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+1659369868484	Marionette	INFO	Stopped listening on port 59750
+console.warn: "IGNORED REDUX ACTION:" "AUTOCOMPLETE_CLEAR"
+JavaScript error: , line 0: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+1659369877442	geckodriver	INFO	Listening on 127.0.0.1:59785
+1659369877959	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "--remote-debugging-port" "59786" "--remote-allow-hosts" "localhost" "-foreground" "-no-remote" "-profile" "/var/folders/0n/0rs04wb94fg8k0sbqntcfrlm0000gn/T/rust_mozprofilelZBinV"
+1659369879217	Marionette	INFO	Marionette enabled
+2022-08-01 21:34:39.359 plugin-container[37008:601950] nil host used in call to allowsSpecificHTTPSCertificateForHost
+2022-08-01 21:34:39.360 plugin-container[37008:601950] nil host used in call to allowsAnyHTTPSCertificateForHost:
+2022-08-01 21:34:39.396 plugin-container[37008:601950] nil host used in call to allowsSpecificHTTPSCertificateForHost
+2022-08-01 21:34:39.396 plugin-container[37008:601950] nil host used in call to allowsAnyHTTPSCertificateForHost:
+2022-08-01 21:34:39.397 plugin-container[37008:601975] nil host used in call to allowsSpecificHTTPSCertificateForHost
+2022-08-01 21:34:39.397 plugin-container[37008:601975] nil host used in call to allowsAnyHTTPSCertificateForHost:
+1659369879591	Marionette	INFO	Listening on port 59793
+WebDriver BiDi listening on ws://localhost:59786
+Read port: 59793
+1659369879820	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /var/folders/0n/0rs04wb94fg8k0sbqntcfrlm0000gn/T/rust_mozprofilelZBinV/search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:59786/devtools/browser/4880fefb-a921-418d-b448-e395541d6b67
+JavaScript error: resource://gre/modules/URIFixup.jsm, line 278: NS_ERROR_FAILURE: Should pass a non-null uri
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://account-d.docusign.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://account-d.docusign.com"
+console.error: (new Error("Connection closed, pending request to server0.conn0.windowGlobal4294967298/inspectorActor4, type supportsHighlighters failed\n\nRequest stack:\nrequest@resource://devtools/shared/protocol/Front.js:293:14\ngenerateRequestMethods/</frontProto[name]@resource://devtools/shared/protocol/Front/FrontClassWithSpec.js:49:19\nsupportsEyeDropper@resource://devtools/client/inspector/inspector.js:1363:40\nsetupToolbar@resource://devtools/client/inspector/inspector.js:1381:42\nonRootNodeAvailable@resource://devtools/client/inspector/inspector.js:375:12\n", "resource://devtools/shared/protocol/Front.js", 107))
+console.error: (new Error("Connection closed, pending request to server0.conn0.windowGlobal4294967298/domnode25, type getUniqueSelector failed\n\nRequest stack:\nrequest@resource://devtools/shared/protocol/Front.js:293:14\ngenerateRequestMethods/</frontProto[name]@resource://devtools/shared/protocol/Front/FrontClassWithSpec.js:49:19\ngetNodeFrontSelectorsFromTopDocument@resource://devtools/shared/commands/inspector/inspector-command.js:325:42\nupdateSelectionCssSelectors@resource://devtools/client/inspector/inspector.js:1476:8\nonNewSelection@resource://devtools/client/inspector/inspector.js:1550:10\ninit@resource://devtools/client/inspector/inspector.js:239:10\n", "resource://devtools/shared/protocol/Front.js", 107))
+console.error: (new Error("Connection closed, pending request to server0.conn0.windowGlobal4294967298/pagestyle23, type getLayout failed\n\nRequest stack:\nrequest@resource://devtools/shared/protocol/Front.js:293:14\ngenerateRequestMethods/</frontProto[name]@resource://devtools/shared/protocol/Front/FrontClassWithSpec.js:49:19\nupdateBoxModel/lastRequest<@resource://devtools/client/inspector/boxmodel/box-model.js:183:36\nupdateBoxModel@resource://devtools/client/inspector/boxmodel/box-model.js:223:18\nonSidebarSelect@resource://devtools/client/inspector/boxmodel/box-model.js:398:10\n_emit@resource://devtools/shared/event-emitter.js:242:32\nemit@resource://devtools/shared/event-emitter.js:186:18\nemit@resource://devtools/shared/event-emitter.js:330:18\nhandleSelectionChange@resource://devtools/client/inspector/toolsidebar.js:216:10\naddAllQueuedTabs/<@resource://devtools/client/shared/components/tabs/TabBar.js:182:20\ncallCallback@resource://devtools/client/shared/vendor/react-dom.js:12127:12\ncommitUpdateEffects@resource://devtools/client/shared/vendor/react-dom.js:12166:19\ncommitUpdateQueue@resource://devtools/client/shared/vendor/react-dom.js:12154:22\ncommitLifeCycles@resource://devtools/client/shared/vendor/react-dom.js:12964:28\ncommitAllLifeCycles@resource://devtools/client/shared/vendor/react-dom.js:14174:23\ncommitRoot@resource://devtools/client/shared/vendor/react-dom.js:14380:28\ncompleteRoot/<@resource://devtools/client/shared/vendor/react-dom.js:15731:15\nunstable_runWithPriority@resource://devtools/client/shared/vendor/react.js:617:12\ncompleteRoot@resource://devtools/client/shared/vendor/react-dom.js:15730:27\nperformWorkOnRoot@resource://devtools/client/shared/vendor/react-dom.js:15659:21\nperformWork@resource://devtools/client/shared/vendor/react-dom.js:15567:24\nperformSyncWork@resource://devtools/client/shared/vendor/react-dom.js:15541:14\nrequestWork@resource://devtools/client/shared/vendor/react-dom.js:15410:5\nscheduleWork@resource://devtools/client/shared/vendor/react-dom.js:15224:16\nenqueueSetState@resource://devtools/client/shared/vendor/react-dom.js:8192:17\nComponent.prototype.setState@resource://devtools/client/shared/vendor/react.js:328:16\naddAllQueuedTabs@resource://devtools/client/shared/components/tabs/TabBar.js:180:10\naddAllQueuedTabs@resource://devtools/client/inspector/toolsidebar.js:78:18\nsetupSidebar@resource://devtools/client/inspector/inspector.js:1262:18\ninit@resource://devtools/client/inspector/inspector.js:234:10\n", "resource://devtools/shared/protocol/Front.js", 107))
+console.error: (new Error("Connection closed, pending request to server0.conn0.windowGlobal4294967298/pagestyle23, type getApplied failed\n\nRequest stack:\nrequest@resource://devtools/shared/protocol/Front.js:293:14\ngenerateRequestMethods/</frontProto[name]@resource://devtools/shared/protocol/Front/FrontClassWithSpec.js:49:19\ngetApplied@resource://devtools/client/fronts/page-style.js:59:29\npopulate@resource://devtools/client/inspector/rules/models/element-style.js:124:8\n_populate@resource://devtools/client/inspector/rules/rules.js:1119:8\nrefreshPanel/<@resource://devtools/client/inspector/rules/rules.js:1054:19\n", "resource://devtools/shared/protocol/Front.js", 107))
+console.error: (new Error("Connection closed, pending request to server0.conn0.windowGlobal4294967298/pagestyle23, type getApplied failed\n\nRequest stack:\nrequest@resource://devtools/shared/protocol/Front.js:293:14\ngenerateRequestMethods/</frontProto[name]@resource://devtools/shared/protocol/Front/FrontClassWithSpec.js:49:19\ngetApplied@resource://devtools/client/fronts/page-style.js:59:29\npopulate@resource://devtools/client/inspector/rules/models/element-style.js:124:8\n_populate@resource://devtools/client/inspector/rules/rules.js:1119:8\nselectElement/<@resource://devtools/client/inspector/rules/rules.js:1012:23\n", "resource://devtools/shared/protocol/Front.js", 107))
+console.error: (new Error("Connection closed, pending request to server0.conn0.windowGlobal4294967298/pagestyle23, type getApplied failed\n\nRequest stack:\nrequest@resource://devtools/shared/protocol/Front.js:293:14\ngenerateRequestMethods/</frontProto[name]@resource://devtools/shared/protocol/Front/FrontClassWithSpec.js:49:19\ngetApplied@resource://devtools/client/fronts/page-style.js:59:29\npopulate@resource://devtools/client/inspector/rules/models/element-style.js:124:8\n_populate@resource://devtools/client/inspector/rules/rules.js:1119:8\nrefreshPanel/<@resource://devtools/client/inspector/rules/rules.js:1054:19\n", "resource://devtools/shared/protocol/Front.js", 107))
+console.error: (new Error("Connection closed, pending request to server0.conn0.windowGlobal4294967298/pagestyle23, type getApplied failed\n\nRequest stack:\nrequest@resource://devtools/shared/protocol/Front.js:293:14\ngenerateRequestMethods/</frontProto[name]@resource://devtools/shared/protocol/Front/FrontClassWithSpec.js:49:19\ngetApplied@resource://devtools/client/fronts/page-style.js:59:29\npopulate@resource://devtools/client/inspector/rules/models/element-style.js:124:8\n_populate@resource://devtools/client/inspector/rules/rules.js:1119:8\nselectElement/<@resource://devtools/client/inspector/rules/rules.js:1012:23\n", "resource://devtools/shared/protocol/Front.js", 107))
+console.error: (new Error("Connection closed, pending request to server0.conn0.windowGlobal4294967298/pagestyle23, type getApplied failed\n\nRequest stack:\nrequest@resource://devtools/shared/protocol/Front.js:293:14\ngenerateRequestMethods/</frontProto[name]@resource://devtools/shared/protocol/Front/FrontClassWithSpec.js:49:19\ngetApplied@resource://devtools/client/fronts/page-style.js:59:29\npopulate@resource://devtools/client/inspector/rules/models/element-style.js:124:8\n_populate@resource://devtools/client/inspector/rules/rules.js:1119:8\nselectElement/<@resource://devtools/client/inspector/rules/rules.js:1012:23\n", "resource://devtools/shared/protocol/Front.js", 107))
+JavaScript error: resource://devtools/shared/protocol/Front.js, line 107: Error: Connection closed, pending request to server0.conn0.windowGlobal4294967298/pagestyle23, type getApplied failed
+
+Request stack:
+request@resource://devtools/shared/protocol/Front.js:293:14
+generateRequestMethods/</frontProto[name]@resource://devtools/shared/protocol/Front/FrontClassWithSpec.js:49:19
+getApplied@resource://devtools/client/fronts/page-style.js:59:29
+populate@resource://devtools/client/inspector/rules/models/element-style.js:124:8
+_populate@resource://devtools/client/inspector/rules/rules.js:1119:8
+refreshPanel/<@resource://devtools/client/inspector/rules/rules.js:1054:19
+
+JavaScript error: resource://devtools/client/fronts/inspector.js, line 259: TypeError: this.targetFront is null
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://account-d.docusign.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://account-d.docusign.com"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+console.error: "Task cancelled"
+1659369955608	Marionette	INFO	Stopped listening on port 59793
+JavaScript error: , line 0: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+1659376303554	geckodriver	INFO	Listening on 127.0.0.1:64870
+1659376304077	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "--remote-debugging-port" "64871" "--remote-allow-hosts" "localhost" "-foreground" "-no-remote" "-profile" "/var/folders/0n/0rs04wb94fg8k0sbqntcfrlm0000gn/T/rust_mozprofileBfJxd6"
+1659376306724	Marionette	INFO	Marionette enabled
+1659376307134	Marionette	INFO	Listening on port 64906
+2022-08-01 23:21:47.142 plugin-container[40398:659193] nil host used in call to allowsSpecificHTTPSCertificateForHost
+2022-08-01 23:21:47.143 plugin-container[40398:659193] nil host used in call to allowsAnyHTTPSCertificateForHost:
+WebDriver BiDi listening on ws://localhost:64871
+Read port: 64906
+1659376307567	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+2022-08-01 23:21:48.383 plugin-container[40398:659193] nil host used in call to allowsSpecificHTTPSCertificateForHost
+2022-08-01 23:21:48.383 plugin-container[40398:659193] nil host used in call to allowsAnyHTTPSCertificateForHost:
+2022-08-01 23:21:48.383 plugin-container[40398:659195] nil host used in call to allowsSpecificHTTPSCertificateForHost
+2022-08-01 23:21:48.383 plugin-container[40398:659195] nil host used in call to allowsAnyHTTPSCertificateForHost:
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /var/folders/0n/0rs04wb94fg8k0sbqntcfrlm0000gn/T/rust_mozprofileBfJxd6/search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:64871/devtools/browser/b445ae1d-236f-4a0d-b2c0-d48c5786938d
+JavaScript error: resource://gre/modules/URIFixup.jsm, line 278: NS_ERROR_FAILURE: Should pass a non-null uri
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://account-d.docusign.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://account-d.docusign.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://account-d.docusign.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://account-d.docusign.com"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+console.error: "Task cancelled"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://account-d.docusign.com"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://account-d.docusign.com"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+console.error: "Task cancelled"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://account-d.docusign.com"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://account-d.docusign.com"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+console.error: (new TypeError("currentNode is null", "resource://devtools/client/inspector/shared/style-change-tracker.js", 66))
+TypeError: currentNode is null: canMutationImpactCurrentStyles@resource://devtools/client/inspector/shared/style-change-tracker.js:66:20
+onMutations@resource://devtools/client/inspector/shared/style-change-tracker.js:84:41
+_emit@resource://devtools/shared/event-emitter.js:242:32
+emit@resource://devtools/shared/event-emitter.js:186:18
+emit@resource://devtools/shared/event-emitter.js:330:18
+getMutations@resource://devtools/client/fronts/walker.js:312:10
+
+console.error: (new TypeError("currentNode is null", "resource://devtools/client/inspector/shared/style-change-tracker.js", 66))
+TypeError: currentNode is null: canMutationImpactCurrentStyles@resource://devtools/client/inspector/shared/style-change-tracker.js:66:20
+onMutations@resource://devtools/client/inspector/shared/style-change-tracker.js:84:41
+_emit@resource://devtools/shared/event-emitter.js:242:32
+emit@resource://devtools/shared/event-emitter.js:186:18
+emit@resource://devtools/shared/event-emitter.js:330:18
+getMutations@resource://devtools/client/fronts/walker.js:312:10
+
+console.error: (new TypeError("currentNode is null", "resource://devtools/client/inspector/shared/style-change-tracker.js", 66))
+TypeError: currentNode is null: canMutationImpactCurrentStyles@resource://devtools/client/inspector/shared/style-change-tracker.js:66:20
+onMutations@resource://devtools/client/inspector/shared/style-change-tracker.js:84:41
+_emit@resource://devtools/shared/event-emitter.js:242:32
+emit@resource://devtools/shared/event-emitter.js:186:18
+emit@resource://devtools/shared/event-emitter.js:330:18
+getMutations@resource://devtools/client/fronts/walker.js:312:10
+
+console.error: "Tried to call unwatchFronts for the 'accessibility' type on an already destroyed front 'windowGlobalTarget'."
+console.error: (new TypeError("topBrowsingContext is null", "resource://devtools/server/actors/watcher/browsing-context-helpers.jsm", 399))
+1659383804584	Marionette	INFO	Stopped listening on port 64906
+1659425345793	geckodriver	INFO	Listening on 127.0.0.1:63249
+1659425346312	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "--remote-debugging-port" "63250" "--remote-allow-hosts" "localhost" "-foreground" "-no-remote" "-profile" "/var/folders/0n/0rs04wb94fg8k0sbqntcfrlm0000gn/T/rust_mozprofilell7HtL"
+1659425349291	Marionette	INFO	Marionette enabled
+1659425349495	Marionette	INFO	Listening on port 63257
+WebDriver BiDi listening on ws://localhost:63250
+Read port: 63257
+2022-08-02 12:59:09.858 plugin-container[46050:821992] nil host used in call to allowsSpecificHTTPSCertificateForHost
+2022-08-02 12:59:09.859 plugin-container[46050:821992] nil host used in call to allowsAnyHTTPSCertificateForHost:
+1659425349862	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+2022-08-02 12:59:10.808 plugin-container[46050:821992] nil host used in call to allowsSpecificHTTPSCertificateForHost
+2022-08-02 12:59:10.808 plugin-container[46050:821992] nil host used in call to allowsAnyHTTPSCertificateForHost:
+2022-08-02 12:59:10.808 plugin-container[46050:821994] nil host used in call to allowsSpecificHTTPSCertificateForHost
+2022-08-02 12:59:10.808 plugin-container[46050:821994] nil host used in call to allowsAnyHTTPSCertificateForHost:
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /var/folders/0n/0rs04wb94fg8k0sbqntcfrlm0000gn/T/rust_mozprofilell7HtL/search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:63250/devtools/browser/ded679d1-255a-4b90-9f2c-407278c72014
+JavaScript error: resource://gre/modules/URIFixup.jsm, line 278: NS_ERROR_FAILURE: Should pass a non-null uri
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://account-d.docusign.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://account-d.docusign.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://account-d.docusign.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://account-d.docusign.com"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://account-d.docusign.com"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://account-d.docusign.com"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+console.error: "Task cancelled"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://account-d.docusign.com"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://account-d.docusign.com"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+console.error: (new TypeError("currentNode is null", "resource://devtools/client/inspector/shared/style-change-tracker.js", 66))
+TypeError: currentNode is null: canMutationImpactCurrentStyles@resource://devtools/client/inspector/shared/style-change-tracker.js:66:20
+onMutations@resource://devtools/client/inspector/shared/style-change-tracker.js:84:41
+_emit@resource://devtools/shared/event-emitter.js:242:32
+emit@resource://devtools/shared/event-emitter.js:186:18
+emit@resource://devtools/shared/event-emitter.js:330:18
+getMutations@resource://devtools/client/fronts/walker.js:312:10
+
+console.error: (new TypeError("currentNode is null", "resource://devtools/client/inspector/shared/style-change-tracker.js", 66))
+TypeError: currentNode is null: canMutationImpactCurrentStyles@resource://devtools/client/inspector/shared/style-change-tracker.js:66:20
+onMutations@resource://devtools/client/inspector/shared/style-change-tracker.js:84:41
+_emit@resource://devtools/shared/event-emitter.js:242:32
+emit@resource://devtools/shared/event-emitter.js:186:18
+emit@resource://devtools/shared/event-emitter.js:330:18
+getMutations@resource://devtools/client/fronts/walker.js:312:10
+
+console.error: (new TypeError("currentNode is null", "resource://devtools/client/inspector/shared/style-change-tracker.js", 66))
+TypeError: currentNode is null: canMutationImpactCurrentStyles@resource://devtools/client/inspector/shared/style-change-tracker.js:66:20
+onMutations@resource://devtools/client/inspector/shared/style-change-tracker.js:84:41
+_emit@resource://devtools/shared/event-emitter.js:242:32
+emit@resource://devtools/shared/event-emitter.js:186:18
+emit@resource://devtools/shared/event-emitter.js:330:18
+getMutations@resource://devtools/client/fronts/walker.js:312:10
+
+console.error: (new TypeError("topBrowsingContext is null", "resource://devtools/server/actors/watcher/browsing-context-helpers.jsm", 399))
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://accounts.google.com"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://accounts.google.com"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+JavaScript warning: https://accounts.google.com/ServiceLogin?service=mail&passive=1209600&osid=1&continue=https://mail.google.com/mail/u/0/&followup=https://mail.google.com/mail/u/0/&emr=1 line 2 > eval line 4 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1659446048642	Marionette	INFO	Stopped listening on port 63257
+1661760143484	geckodriver	INFO	Listening on 127.0.0.1:52228
+1661760143973	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "--remote-debugging-port" "52229" "--remote-allow-hosts" "localhost" "-foreground" "-no-remote" "-profile" "/var/folders/0n/0rs04wb94fg8k0sbqntcfrlm0000gn/T/rust_mozprofileCl1MLC"
+1661760146322	Marionette	INFO	Marionette enabled
+1661760146480	Marionette	INFO	Listening on port 52236
+WebDriver BiDi listening on ws://localhost:52229
+Read port: 52236
+2022-08-29 13:32:26.577 plugin-container[8935:169084] nil host used in call to allowsSpecificHTTPSCertificateForHost
+2022-08-29 13:32:26.577 plugin-container[8935:169084] nil host used in call to allowsAnyHTTPSCertificateForHost:
+1661760147012	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+2022-08-29 13:32:27.235 plugin-container[8935:169084] nil host used in call to allowsSpecificHTTPSCertificateForHost
+2022-08-29 13:32:27.235 plugin-container[8935:169084] nil host used in call to allowsAnyHTTPSCertificateForHost:
+2022-08-29 13:32:27.236 plugin-container[8935:169140] nil host used in call to allowsSpecificHTTPSCertificateForHost
+2022-08-29 13:32:27.236 plugin-container[8935:169140] nil host used in call to allowsAnyHTTPSCertificateForHost:
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /var/folders/0n/0rs04wb94fg8k0sbqntcfrlm0000gn/T/rust_mozprofileCl1MLC/search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:52229/devtools/browser/06f63168-7d59-4543-89af-5c21cd9e4fd9
+JavaScript error: resource://gre/modules/URIFixup.jsm, line 292: NS_ERROR_FAILURE: Should pass a non-null uri
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://account-d.docusign.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://account-d.docusign.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://account-d.docusign.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://account-d.docusign.com."
+JavaScript error: https://docucdn-a.akamaihd.net/demo/ndse/ndse.mar.2022.17.45983/js/boot.bundle.js, line 2: Error: Request aborted
+1661760186837	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+1661760199305	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+1661760224291	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.js:236:24
+TimedPromise@chrome://remote/content/marionette/sync.js:221:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.js:431:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.js:179:31
+JavaScript error: https://docucdn-a.akamaihd.net/demo/ndse/ndse.mar.2022.17.45983/js/boot.bundle.js, line 2: Error: Request aborted
+1661760287545	Marionette	INFO	Stopped listening on port 52236
