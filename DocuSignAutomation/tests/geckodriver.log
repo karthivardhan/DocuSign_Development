@@ -588,3 +588,348 @@ interaction.flushEventLoop@chrome://remote/content/marionette/interaction.js:431
 webdriverClickElement@chrome://remote/content/marionette/interaction.js:179:31
 JavaScript error: https://docucdn-a.akamaihd.net/demo/ndse/ndse.mar.2022.17.45983/js/boot.bundle.js, line 2: Error: Request aborted
 1661760287545	Marionette	INFO	Stopped listening on port 52236
+1663137791880	geckodriver	INFO	Listening on 127.0.0.1:53041
+1663137792368	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "--remote-debugging-port" "53042" "--remote-allow-hosts" "localhost" "-foreground" "-no-remote" "-profile" "/var/folders/0n/0rs04wb94fg8k0sbqntcfrlm0000gn/T/rust_mozprofileQDCXa9"
+1663137815423	Marionette	INFO	Marionette enabled
+1663137815712	Marionette	INFO	Listening on port 53050
+Read port: 53050
+WebDriver BiDi listening on ws://localhost:53042
+2022-09-14 12:13:35.824 plugin-container[11759:181443] nil host used in call to allowsSpecificHTTPSCertificateForHost
+2022-09-14 12:13:35.824 plugin-container[11759:181443] nil host used in call to allowsAnyHTTPSCertificateForHost:
+1663137815972	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+2022-09-14 12:13:36.606 plugin-container[11759:181443] nil host used in call to allowsSpecificHTTPSCertificateForHost
+2022-09-14 12:13:36.606 plugin-container[11759:181443] nil host used in call to allowsAnyHTTPSCertificateForHost:
+2022-09-14 12:13:36.609 plugin-container[11759:181566] nil host used in call to allowsSpecificHTTPSCertificateForHost
+2022-09-14 12:13:36.609 plugin-container[11759:181566] nil host used in call to allowsAnyHTTPSCertificateForHost:
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /var/folders/0n/0rs04wb94fg8k0sbqntcfrlm0000gn/T/rust_mozprofileQDCXa9/search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:53042/devtools/browser/79926707-f79f-4977-ad52-53329b78a61c
+JavaScript error: resource://gre/modules/URIFixup.jsm, line 292: NS_ERROR_FAILURE: Should pass a non-null uri
+1663138030873	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+1663138040789	Marionette	INFO	Stopped listening on port 53050
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+1663138106923	geckodriver	INFO	Listening on 127.0.0.1:53146
+1663138107437	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "--remote-debugging-port" "53147" "--remote-allow-hosts" "localhost" "-foreground" "-no-remote" "-profile" "/var/folders/0n/0rs04wb94fg8k0sbqntcfrlm0000gn/T/rust_mozprofileBYe9HG"
+1663138109922	Marionette	INFO	Marionette enabled
+1663138110051	Marionette	INFO	Listening on port 53154
+WebDriver BiDi listening on ws://localhost:53147
+2022-09-14 12:18:30.110 plugin-container[11873:184068] nil host used in call to allowsSpecificHTTPSCertificateForHost
+2022-09-14 12:18:30.111 plugin-container[11873:184068] nil host used in call to allowsAnyHTTPSCertificateForHost:
+Read port: 53154
+1663138110319	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+2022-09-14 12:18:30.682 plugin-container[11873:184068] nil host used in call to allowsSpecificHTTPSCertificateForHost
+2022-09-14 12:18:30.682 plugin-container[11873:184068] nil host used in call to allowsAnyHTTPSCertificateForHost:
+2022-09-14 12:18:30.683 plugin-container[11873:184069] nil host used in call to allowsSpecificHTTPSCertificateForHost
+2022-09-14 12:18:30.683 plugin-container[11873:184069] nil host used in call to allowsAnyHTTPSCertificateForHost:
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /var/folders/0n/0rs04wb94fg8k0sbqntcfrlm0000gn/T/rust_mozprofileBYe9HG/search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:53147/devtools/browser/52a09bd6-a346-484b-82cc-36dec56be4fb
+JavaScript error: resource://gre/modules/URIFixup.jsm, line 292: NS_ERROR_FAILURE: Should pass a non-null uri
+1663138169219	Marionette	INFO	Stopped listening on port 53154
+1663138169462	geckodriver::marionette	ERROR	Failed to close browser connection: Socket is not connected (os error 57)
+[2022-09-14T06:49:29Z ERROR glean_core] Can't persist ping lifetime data: Error { kind: Rkv(IoError(Os { code: 2, kind: NotFound, message: "No such file or directory" })) }
+1663138185929	geckodriver	INFO	Listening on 127.0.0.1:53183
+1663138186435	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "--remote-debugging-port" "53184" "--remote-allow-hosts" "localhost" "-foreground" "-no-remote" "-profile" "/var/folders/0n/0rs04wb94fg8k0sbqntcfrlm0000gn/T/rust_mozprofileLds4Tb"
+2022-09-14 12:19:47.698 plugin-container[11934:185109] nil host used in call to allowsSpecificHTTPSCertificateForHost
+2022-09-14 12:19:47.711 plugin-container[11934:185109] nil host used in call to allowsAnyHTTPSCertificateForHost:
+1663138187721	Marionette	INFO	Marionette enabled
+2022-09-14 12:19:47.801 plugin-container[11934:185109] nil host used in call to allowsSpecificHTTPSCertificateForHost
+2022-09-14 12:19:47.801 plugin-container[11934:185109] nil host used in call to allowsAnyHTTPSCertificateForHost:
+2022-09-14 12:19:47.801 plugin-container[11934:185114] nil host used in call to allowsSpecificHTTPSCertificateForHost
+2022-09-14 12:19:47.801 plugin-container[11934:185114] nil host used in call to allowsAnyHTTPSCertificateForHost:
+1663138187969	Marionette	INFO	Listening on port 53191
+WebDriver BiDi listening on ws://localhost:53184
+Read port: 53191
+1663138188156	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /var/folders/0n/0rs04wb94fg8k0sbqntcfrlm0000gn/T/rust_mozprofileLds4Tb/search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:53184/devtools/browser/96f09dbc-e29d-4d0f-97f0-8985caed128e
+JavaScript error: resource://gre/modules/URIFixup.jsm, line 292: NS_ERROR_FAILURE: Should pass a non-null uri
+1663138196140	Marionette	INFO	Stopped listening on port 53191
+1663138196313	geckodriver::marionette	ERROR	Failed to close browser connection: Socket is not connected (os error 57)
+[2022-09-14T06:49:56Z ERROR glean_core] Can't persist ping lifetime data: Error { kind: Rkv(IoError(Os { code: 2, kind: NotFound, message: "No such file or directory" })) }
+1663138217428	geckodriver	INFO	Listening on 127.0.0.1:53221
+1663138217952	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "--remote-debugging-port" "53222" "--remote-allow-hosts" "localhost" "-foreground" "-no-remote" "-profile" "/var/folders/0n/0rs04wb94fg8k0sbqntcfrlm0000gn/T/rust_mozprofileOyl380"
+2022-09-14 12:20:18.769 plugin-container[11972:185734] nil host used in call to allowsSpecificHTTPSCertificateForHost
+2022-09-14 12:20:18.770 plugin-container[11972:185734] nil host used in call to allowsAnyHTTPSCertificateForHost:
+2022-09-14 12:20:18.777 plugin-container[11972:185734] nil host used in call to allowsSpecificHTTPSCertificateForHost
+2022-09-14 12:20:18.777 plugin-container[11972:185734] nil host used in call to allowsAnyHTTPSCertificateForHost:
+2022-09-14 12:20:18.778 plugin-container[11972:185731] nil host used in call to allowsSpecificHTTPSCertificateForHost
+2022-09-14 12:20:18.778 plugin-container[11972:185731] nil host used in call to allowsAnyHTTPSCertificateForHost:
+1663138218916	Marionette	INFO	Marionette enabled
+1663138219202	Marionette	INFO	Listening on port 53229
+WebDriver BiDi listening on ws://localhost:53222
+Read port: 53229
+1663138219416	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /var/folders/0n/0rs04wb94fg8k0sbqntcfrlm0000gn/T/rust_mozprofileOyl380/search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:53222/devtools/browser/aae949a4-db71-4904-9ba5-820cab0db4b0
+JavaScript error: resource://gre/modules/URIFixup.jsm, line 292: NS_ERROR_FAILURE: Should pass a non-null uri
+1663138263073	Marionette	INFO	Stopped listening on port 53229
+1663138263290	geckodriver::marionette	ERROR	Failed to close browser connection: Socket is not connected (os error 57)
+1663207220571	geckodriver	INFO	Listening on 127.0.0.1:57267
+1663207221051	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "--remote-debugging-port" "57268" "--remote-allow-hosts" "localhost" "-foreground" "-no-remote" "-profile" "/var/folders/0n/0rs04wb94fg8k0sbqntcfrlm0000gn/T/rust_mozprofilezcyDF8"
+1663207223064	Marionette	INFO	Marionette enabled
+2022-09-15 07:30:23.336 plugin-container[77033:388629] nil host used in call to allowsSpecificHTTPSCertificateForHost
+2022-09-15 07:30:23.337 plugin-container[77033:388629] nil host used in call to allowsAnyHTTPSCertificateForHost:
+1663207223391	Marionette	INFO	Listening on port 57275
+WebDriver BiDi listening on ws://localhost:57268
+Read port: 57275
+1663207223674	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+2022-09-15 07:30:23.818 plugin-container[77033:388629] nil host used in call to allowsSpecificHTTPSCertificateForHost
+2022-09-15 07:30:23.818 plugin-container[77033:388629] nil host used in call to allowsAnyHTTPSCertificateForHost:
+2022-09-15 07:30:23.819 plugin-container[77033:388627] nil host used in call to allowsSpecificHTTPSCertificateForHost
+2022-09-15 07:30:23.819 plugin-container[77033:388627] nil host used in call to allowsAnyHTTPSCertificateForHost:
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /var/folders/0n/0rs04wb94fg8k0sbqntcfrlm0000gn/T/rust_mozprofilezcyDF8/search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:57268/devtools/browser/60f6b6d1-e555-4a28-8bc3-b2d673b5b949
+JavaScript error: resource://gre/modules/URIFixup.jsm, line 292: NS_ERROR_FAILURE: Should pass a non-null uri
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://account-d.docusign.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://account-d.docusign.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://account-d.docusign.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://account-d.docusign.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://appdemo.docusign.com."
+1663207292146	Marionette	INFO	Stopped listening on port 57275
+1663207663733	geckodriver	INFO	Listening on 127.0.0.1:57352
+1663207664241	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "--remote-debugging-port" "57353" "--remote-allow-hosts" "localhost" "-foreground" "-no-remote" "-profile" "/var/folders/0n/0rs04wb94fg8k0sbqntcfrlm0000gn/T/rust_mozprofileLzxHT0"
+1663207665714	Marionette	INFO	Marionette enabled
+1663207665865	Marionette	INFO	Listening on port 57360
+WebDriver BiDi listening on ws://localhost:57353
+Read port: 57360
+2022-09-15 07:37:46.095 plugin-container[77172:391919] nil host used in call to allowsSpecificHTTPSCertificateForHost
+2022-09-15 07:37:46.095 plugin-container[77172:391919] nil host used in call to allowsAnyHTTPSCertificateForHost:
+1663207666112	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+2022-09-15 07:37:46.419 plugin-container[77172:391919] nil host used in call to allowsSpecificHTTPSCertificateForHost
+2022-09-15 07:37:46.419 plugin-container[77172:391919] nil host used in call to allowsAnyHTTPSCertificateForHost:
+2022-09-15 07:37:46.420 plugin-container[77172:391921] nil host used in call to allowsSpecificHTTPSCertificateForHost
+2022-09-15 07:37:46.420 plugin-container[77172:391921] nil host used in call to allowsAnyHTTPSCertificateForHost:
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /var/folders/0n/0rs04wb94fg8k0sbqntcfrlm0000gn/T/rust_mozprofileLzxHT0/search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:57353/devtools/browser/56d38fa9-0c43-4d25-85e8-b9e7671fef1e
+JavaScript error: resource://gre/modules/URIFixup.jsm, line 292: NS_ERROR_FAILURE: Should pass a non-null uri
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://account-d.docusign.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://account-d.docusign.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://account-d.docusign.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://account-d.docusign.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://appdemo.docusign.com."
+1663207734546	Marionette	INFO	Stopped listening on port 57360
+1663208725051	geckodriver	INFO	Listening on 127.0.0.1:57456
+1663208725584	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "--remote-debugging-port" "57457" "--remote-allow-hosts" "localhost" "-foreground" "-no-remote" "-profile" "/var/folders/0n/0rs04wb94fg8k0sbqntcfrlm0000gn/T/rust_mozprofilevRpLyz"
+1663208728327	Marionette	INFO	Marionette enabled
+2022-09-15 07:55:28.586 plugin-container[77483:400070] nil host used in call to allowsSpecificHTTPSCertificateForHost
+2022-09-15 07:55:28.587 plugin-container[77483:400070] nil host used in call to allowsAnyHTTPSCertificateForHost:
+1663208728642	Marionette	INFO	Listening on port 57465
+WebDriver BiDi listening on ws://localhost:57457
+Read port: 57465
+2022-09-15 07:55:28.916 plugin-container[77483:400070] nil host used in call to allowsSpecificHTTPSCertificateForHost
+2022-09-15 07:55:28.916 plugin-container[77483:400070] nil host used in call to allowsAnyHTTPSCertificateForHost:
+2022-09-15 07:55:28.917 plugin-container[77483:400110] nil host used in call to allowsSpecificHTTPSCertificateForHost
+2022-09-15 07:55:28.917 plugin-container[77483:400110] nil host used in call to allowsAnyHTTPSCertificateForHost:
+1663208728977	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /var/folders/0n/0rs04wb94fg8k0sbqntcfrlm0000gn/T/rust_mozprofilevRpLyz/search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:57457/devtools/browser/1d04348f-497f-4400-be2b-b9b74604936a
+JavaScript error: resource://gre/modules/URIFixup.jsm, line 292: NS_ERROR_FAILURE: Should pass a non-null uri
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://account-d.docusign.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://account-d.docusign.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://account-d.docusign.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://account-d.docusign.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://appdemo.docusign.com."
+1663208796418	Marionette	INFO	Stopped listening on port 57465
+1663208820492	geckodriver	INFO	Listening on 127.0.0.1:57529
+1663208821012	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "--remote-debugging-port" "57530" "--remote-allow-hosts" "localhost" "-foreground" "-no-remote" "-profile" "/var/folders/0n/0rs04wb94fg8k0sbqntcfrlm0000gn/T/rust_mozprofile94MND0"
+2022-09-15 07:57:02.333 plugin-container[77535:401173] nil host used in call to allowsSpecificHTTPSCertificateForHost
+2022-09-15 07:57:02.355 plugin-container[77535:401173] nil host used in call to allowsAnyHTTPSCertificateForHost:
+1663208822385	Marionette	INFO	Marionette enabled
+2022-09-15 07:57:02.395 plugin-container[77535:401173] nil host used in call to allowsSpecificHTTPSCertificateForHost
+2022-09-15 07:57:02.395 plugin-container[77535:401173] nil host used in call to allowsAnyHTTPSCertificateForHost:
+2022-09-15 07:57:02.396 plugin-container[77535:401169] nil host used in call to allowsSpecificHTTPSCertificateForHost
+2022-09-15 07:57:02.396 plugin-container[77535:401169] nil host used in call to allowsAnyHTTPSCertificateForHost:
+1663208822843	Marionette	INFO	Listening on port 57537
+WebDriver BiDi listening on ws://localhost:57530
+Read port: 57537
+1663208823075	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /var/folders/0n/0rs04wb94fg8k0sbqntcfrlm0000gn/T/rust_mozprofile94MND0/search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:57530/devtools/browser/c17eaa1b-aa1a-49dd-83d3-44f0226b71df
+JavaScript error: resource://gre/modules/URIFixup.jsm, line 292: NS_ERROR_FAILURE: Should pass a non-null uri
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://account-d.docusign.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://account-d.docusign.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://account-d.docusign.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://account-d.docusign.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://appdemo.docusign.com."
+1663208891681	Marionette	INFO	Stopped listening on port 57537
+1663208933698	geckodriver	INFO	Listening on 127.0.0.1:57597
+1663208934216	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "--remote-debugging-port" "57598" "--remote-allow-hosts" "localhost" "-foreground" "-no-remote" "-profile" "/var/folders/0n/0rs04wb94fg8k0sbqntcfrlm0000gn/T/rust_mozprofile0Q5nI3"
+2022-09-15 07:58:55.271 plugin-container[77582:402270] nil host used in call to allowsSpecificHTTPSCertificateForHost
+2022-09-15 07:58:55.293 plugin-container[77582:402270] nil host used in call to allowsAnyHTTPSCertificateForHost:
+1663208935310	Marionette	INFO	Marionette enabled
+2022-09-15 07:58:55.417 plugin-container[77582:402270] nil host used in call to allowsSpecificHTTPSCertificateForHost
+2022-09-15 07:58:55.417 plugin-container[77582:402270] nil host used in call to allowsAnyHTTPSCertificateForHost:
+2022-09-15 07:58:55.418 plugin-container[77582:402271] nil host used in call to allowsSpecificHTTPSCertificateForHost
+2022-09-15 07:58:55.418 plugin-container[77582:402271] nil host used in call to allowsAnyHTTPSCertificateForHost:
+1663208935630	Marionette	INFO	Listening on port 57605
+WebDriver BiDi listening on ws://localhost:57598
+Read port: 57605
+1663208935872	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /var/folders/0n/0rs04wb94fg8k0sbqntcfrlm0000gn/T/rust_mozprofile0Q5nI3/search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:57598/devtools/browser/04d70e96-c70b-43f4-be15-2945d2eb4cca
+JavaScript error: resource://gre/modules/URIFixup.jsm, line 292: NS_ERROR_FAILURE: Should pass a non-null uri
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://account-d.docusign.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://account-d.docusign.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://account-d.docusign.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://account-d.docusign.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://appdemo.docusign.com."
+1663209004176	Marionette	INFO	Stopped listening on port 57605
+1663209231167	geckodriver	INFO	Listening on 127.0.0.1:57679
+1663209231681	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "--remote-debugging-port" "57680" "--remote-allow-hosts" "localhost" "-foreground" "-no-remote" "-profile" "/var/folders/0n/0rs04wb94fg8k0sbqntcfrlm0000gn/T/rust_mozprofileeVX3jK"
+1663209234427	Marionette	INFO	Marionette enabled
+2022-09-15 08:03:54.635 plugin-container[77760:406301] nil host used in call to allowsSpecificHTTPSCertificateForHost
+2022-09-15 08:03:54.637 plugin-container[77760:406301] nil host used in call to allowsAnyHTTPSCertificateForHost:
+2022-09-15 08:03:54.778 plugin-container[77760:406301] nil host used in call to allowsSpecificHTTPSCertificateForHost
+2022-09-15 08:03:54.779 plugin-container[77760:406301] nil host used in call to allowsAnyHTTPSCertificateForHost:
+2022-09-15 08:03:54.779 plugin-container[77760:406303] nil host used in call to allowsSpecificHTTPSCertificateForHost
+2022-09-15 08:03:54.779 plugin-container[77760:406303] nil host used in call to allowsAnyHTTPSCertificateForHost:
+1663209234823	Marionette	INFO	Listening on port 57687
+WebDriver BiDi listening on ws://localhost:57680
+Read port: 57687
+1663209235251	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /var/folders/0n/0rs04wb94fg8k0sbqntcfrlm0000gn/T/rust_mozprofileeVX3jK/search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:57680/devtools/browser/b30ad62a-3752-4654-ad89-cc941b335e91
+JavaScript error: resource://gre/modules/URIFixup.jsm, line 292: NS_ERROR_FAILURE: Should pass a non-null uri
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://account-d.docusign.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://account-d.docusign.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://account-d.docusign.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://account-d.docusign.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://appdemo.docusign.com."
+1663209323582	Marionette	INFO	Stopped listening on port 57687
+1663229726030	geckodriver	INFO	Listening on 127.0.0.1:58767
+1663229726556	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "--remote-debugging-port" "58768" "--remote-allow-hosts" "localhost" "-foreground" "-no-remote" "-profile" "/var/folders/0n/0rs04wb94fg8k0sbqntcfrlm0000gn/T/rust_mozprofilez5czY1"
+1663229729403	Marionette	INFO	Marionette enabled
+1663229729610	Marionette	INFO	Listening on port 58777
+WebDriver BiDi listening on ws://localhost:58768
+Read port: 58777
+2022-09-15 13:45:29.907 plugin-container[80892:481532] nil host used in call to allowsSpecificHTTPSCertificateForHost
+2022-09-15 13:45:29.961 plugin-container[80892:481532] nil host used in call to allowsAnyHTTPSCertificateForHost:
+1663229730678	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+2022-09-15 13:45:30.807 plugin-container[80892:481532] nil host used in call to allowsSpecificHTTPSCertificateForHost
+2022-09-15 13:45:30.808 plugin-container[80892:481532] nil host used in call to allowsAnyHTTPSCertificateForHost:
+2022-09-15 13:45:30.808 plugin-container[80892:481539] nil host used in call to allowsSpecificHTTPSCertificateForHost
+2022-09-15 13:45:30.808 plugin-container[80892:481539] nil host used in call to allowsAnyHTTPSCertificateForHost:
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /var/folders/0n/0rs04wb94fg8k0sbqntcfrlm0000gn/T/rust_mozprofilez5czY1/search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:58768/devtools/browser/02b88c44-70ea-4b8f-a792-d538df5be31f
+JavaScript error: resource://gre/modules/URIFixup.jsm, line 292: NS_ERROR_FAILURE: Should pass a non-null uri
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://account-d.docusign.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://account-d.docusign.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://account-d.docusign.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://account-d.docusign.com."
+1663229934961	Marionette	INFO	Stopped listening on port 58777
+1663229955287	geckodriver::marionette	ERROR	Failed to close browser connection: Socket is not connected (os error 57)
+1663229958381	geckodriver	INFO	Listening on 127.0.0.1:58865
+1663229958889	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "--remote-debugging-port" "58866" "--remote-allow-hosts" "localhost" "-foreground" "-no-remote" "-profile" "/var/folders/0n/0rs04wb94fg8k0sbqntcfrlm0000gn/T/rust_mozprofileWx2cdt"
+1663229961137	Marionette	INFO	Marionette enabled
+2022-09-15 13:49:21.386 plugin-container[81058:484763] nil host used in call to allowsSpecificHTTPSCertificateForHost
+2022-09-15 13:49:21.387 plugin-container[81058:484763] nil host used in call to allowsAnyHTTPSCertificateForHost:
+1663229961623	Marionette	INFO	Listening on port 58873
+WebDriver BiDi listening on ws://localhost:58866
+Read port: 58873
+2022-09-15 13:49:21.770 plugin-container[81058:484763] nil host used in call to allowsSpecificHTTPSCertificateForHost
+2022-09-15 13:49:21.770 plugin-container[81058:484763] nil host used in call to allowsAnyHTTPSCertificateForHost:
+2022-09-15 13:49:21.771 plugin-container[81058:484796] nil host used in call to allowsSpecificHTTPSCertificateForHost
+2022-09-15 13:49:21.771 plugin-container[81058:484796] nil host used in call to allowsAnyHTTPSCertificateForHost:
+1663229961931	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /var/folders/0n/0rs04wb94fg8k0sbqntcfrlm0000gn/T/rust_mozprofileWx2cdt/search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:58866/devtools/browser/f6147f56-dac2-4448-b4de-e6ab37ef4657
+JavaScript error: resource://gre/modules/URIFixup.jsm, line 292: NS_ERROR_FAILURE: Should pass a non-null uri
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://account-d.docusign.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://account-d.docusign.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://account-d.docusign.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://account-d.docusign.com."
+1663230030388	Marionette	INFO	Stopped listening on port 58873
+1663230136267	geckodriver	INFO	Listening on 127.0.0.1:58933
+1663230136789	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "--remote-debugging-port" "58934" "--remote-allow-hosts" "localhost" "-foreground" "-no-remote" "-profile" "/var/folders/0n/0rs04wb94fg8k0sbqntcfrlm0000gn/T/rust_mozprofileYT1TzA"
+1663230138190	Marionette	INFO	Marionette enabled
+1663230138352	Marionette	INFO	Listening on port 58941
+Read port: 58941
+WebDriver BiDi listening on ws://localhost:58934
+2022-09-15 13:52:18.608 plugin-container[81193:487295] nil host used in call to allowsSpecificHTTPSCertificateForHost
+2022-09-15 13:52:18.609 plugin-container[81193:487295] nil host used in call to allowsAnyHTTPSCertificateForHost:
+1663230138650	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+2022-09-15 13:52:18.756 plugin-container[81193:487295] nil host used in call to allowsSpecificHTTPSCertificateForHost
+2022-09-15 13:52:18.756 plugin-container[81193:487295] nil host used in call to allowsAnyHTTPSCertificateForHost:
+2022-09-15 13:52:18.757 plugin-container[81193:487320] nil host used in call to allowsSpecificHTTPSCertificateForHost
+2022-09-15 13:52:18.757 plugin-container[81193:487320] nil host used in call to allowsAnyHTTPSCertificateForHost:
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /var/folders/0n/0rs04wb94fg8k0sbqntcfrlm0000gn/T/rust_mozprofileYT1TzA/search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:58934/devtools/browser/1f74cd13-cdf0-400f-92e2-1a0c39b3e3f3
+JavaScript error: resource://gre/modules/URIFixup.jsm, line 292: NS_ERROR_FAILURE: Should pass a non-null uri
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://account-d.docusign.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://account-d.docusign.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://account-d.docusign.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://account-d.docusign.com."
+console.error: (new TypeError("this.nodeHierarchy[this.currentIndex] is undefined", "resource://devtools/client/inspector/breadcrumbs.js", 804))
+TypeError: this.nodeHierarchy[this.currentIndex] is undefined: scroll@resource://devtools/client/inspector/breadcrumbs.js:804:23
+_emit@resource://devtools/shared/event-emitter.js:242:32
+emit@resource://devtools/shared/event-emitter.js:186:18
+emit@resource://devtools/shared/event-emitter.js:330:18
+onOverflow@resource://devtools/client/inspector/breadcrumbs.js:205:10
+
+JavaScript error: , line 0: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+1663236717215	Marionette	INFO	Stopped listening on port 58941
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+1663236723316	geckodriver	INFO	Listening on 127.0.0.1:59635
+1663236723335	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "--remote-debugging-port" "59636" "--remote-allow-hosts" "localhost" "-foreground" "-no-remote" "-profile" "/var/folders/0n/0rs04wb94fg8k0sbqntcfrlm0000gn/T/rust_mozprofileLgybuM"
+1663236725670	Marionette	INFO	Marionette enabled
+2022-09-15 15:42:05.899 plugin-container[82587:529043] nil host used in call to allowsSpecificHTTPSCertificateForHost
+2022-09-15 15:42:05.900 plugin-container[82587:529043] nil host used in call to allowsAnyHTTPSCertificateForHost:
+1663236725995	Marionette	INFO	Listening on port 59641
+WebDriver BiDi listening on ws://localhost:59636
+Read port: 59641
+1663236726323	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+2022-09-15 15:42:06.900 plugin-container[82587:529043] nil host used in call to allowsSpecificHTTPSCertificateForHost
+2022-09-15 15:42:06.900 plugin-container[82587:529043] nil host used in call to allowsAnyHTTPSCertificateForHost:
+2022-09-15 15:42:06.900 plugin-container[82587:529045] nil host used in call to allowsSpecificHTTPSCertificateForHost
+2022-09-15 15:42:06.900 plugin-container[82587:529045] nil host used in call to allowsAnyHTTPSCertificateForHost:
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /var/folders/0n/0rs04wb94fg8k0sbqntcfrlm0000gn/T/rust_mozprofileLgybuM/search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:59636/devtools/browser/e4f9dd95-3ecc-43f1-899d-6d131d4b6510
+JavaScript error: resource://gre/modules/URIFixup.jsm, line 292: NS_ERROR_FAILURE: Should pass a non-null uri
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://account-d.docusign.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://account-d.docusign.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://account-d.docusign.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://account-d.docusign.com."
+1663241717057	Marionette	INFO	Stopped listening on port 59641
+1663248453081	geckodriver::marionette	ERROR	Failed to close browser connection: Socket is not connected (os error 57)
+1663248459116	geckodriver	INFO	Listening on 127.0.0.1:60205
+1663248459133	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "--remote-debugging-port" "60206" "--remote-allow-hosts" "localhost" "-foreground" "-no-remote" "-profile" "/var/folders/0n/0rs04wb94fg8k0sbqntcfrlm0000gn/T/rust_mozprofileqra6ew"
+1663248462568	Marionette	INFO	Marionette enabled
+1663248462771	Marionette	INFO	Listening on port 60211
+Read port: 60211
+WebDriver BiDi listening on ws://localhost:60206
+2022-09-15 18:57:42.947 plugin-container[83959:570028] nil host used in call to allowsSpecificHTTPSCertificateForHost
+2022-09-15 18:57:42.947 plugin-container[83959:570028] nil host used in call to allowsAnyHTTPSCertificateForHost:
+1663248463065	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+2022-09-15 18:57:43.704 plugin-container[83959:570028] nil host used in call to allowsSpecificHTTPSCertificateForHost
+2022-09-15 18:57:43.704 plugin-container[83959:570028] nil host used in call to allowsAnyHTTPSCertificateForHost:
+2022-09-15 18:57:43.704 plugin-container[83959:570127] nil host used in call to allowsSpecificHTTPSCertificateForHost
+2022-09-15 18:57:43.705 plugin-container[83959:570127] nil host used in call to allowsAnyHTTPSCertificateForHost:
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /var/folders/0n/0rs04wb94fg8k0sbqntcfrlm0000gn/T/rust_mozprofileqra6ew/search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:60206/devtools/browser/6650d483-12ee-40da-bb90-8d89a0d642c0
+JavaScript error: resource://gre/modules/URIFixup.jsm, line 292: NS_ERROR_FAILURE: Should pass a non-null uri
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://account-d.docusign.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://account-d.docusign.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://account-d.docusign.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://account-d.docusign.com."
+1663248749302	Marionette	INFO	Stopped listening on port 60211
+1663248755740	geckodriver	INFO	Listening on 127.0.0.1:60276
+1663248756261	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "--remote-debugging-port" "60277" "--remote-allow-hosts" "localhost" "-foreground" "-no-remote" "-profile" "/var/folders/0n/0rs04wb94fg8k0sbqntcfrlm0000gn/T/rust_mozprofilevZxsUj"
+1663248758250	Marionette	INFO	Marionette enabled
+1663248758575	Marionette	INFO	Listening on port 60284
+WebDriver BiDi listening on ws://localhost:60277
+2022-09-15 19:02:38.651 plugin-container[84058:572350] nil host used in call to allowsSpecificHTTPSCertificateForHost
+2022-09-15 19:02:38.651 plugin-container[84058:572350] nil host used in call to allowsAnyHTTPSCertificateForHost:
+Read port: 60284
+1663248758852	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+2022-09-15 19:02:39.258 plugin-container[84058:572350] nil host used in call to allowsSpecificHTTPSCertificateForHost
+2022-09-15 19:02:39.258 plugin-container[84058:572350] nil host used in call to allowsAnyHTTPSCertificateForHost:
+2022-09-15 19:02:39.259 plugin-container[84058:572378] nil host used in call to allowsSpecificHTTPSCertificateForHost
+2022-09-15 19:02:39.259 plugin-container[84058:572378] nil host used in call to allowsAnyHTTPSCertificateForHost:
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /var/folders/0n/0rs04wb94fg8k0sbqntcfrlm0000gn/T/rust_mozprofilevZxsUj/search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:60277/devtools/browser/b5872221-c60d-4dcd-a76d-3c39af60181b
+JavaScript error: resource://gre/modules/URIFixup.jsm, line 292: NS_ERROR_FAILURE: Should pass a non-null uri
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://account-d.docusign.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://account-d.docusign.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://account-d.docusign.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://account-d.docusign.com."
+1663249002284	Marionette	INFO	Stopped listening on port 60284
+1663249002508	geckodriver::marionette	ERROR	Failed to close browser connection: Socket is not connected (os error 57)

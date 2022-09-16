@@ -1,4 +1,5 @@
 import time
+from selenium.webdriver.common.by import By
 from selenium.webdriver.support import expected_conditions as EC
 from selenium.webdriver.support.wait import WebDriverWait
 
@@ -14,8 +15,8 @@ class Login_Page():
         self.home_page_title = "header-home-desktop"
 
     def login_page(self, userName, password):
-        self.driver.find_element('css selector', self.user_name).send_keys(userName)
-        self.driver.find_element('css selector', self.submit_userName).click()
-        self.driver.find_element('css selector', self.password).send_keys(password)
-        self.driver.find_element('css selector', self.submit_password).click()
+        self.driver.find_element(By.CSS_SELECTOR, self.user_name).send_keys(userName)
+        self.driver.find_element(By.CSS_SELECTOR, self.submit_userName).click()
+        self.driver.find_element(By.CSS_SELECTOR, self.password).send_keys(password)
+        self.driver.find_element(By.CSS_SELECTOR, self.submit_password).click()
         time.sleep(20)
