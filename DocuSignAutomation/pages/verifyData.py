@@ -1,26 +1,18 @@
-import logging
-
-import PyPDF2
+from selenium.webdriver import ActionChains
+from selenium.webdriver.common.actions.wheel_input import ScrollOrigin
 from selenium.webdriver.common.by import By
 from selenium.webdriver.support import expected_conditions as EC
 from selenium.webdriver.support.wait import WebDriverWait
 from pages import constants as constants
-from selenium import webdriver
-import urllib.request
-from urllib import request
-from urllib.request import Request, urlopen
 import time
-from urllib.error import HTTPError, URLError
-from socket import timeout
 
 
-class Verify_Data():
+class Envelope_History():
     def __init__(self, driver):
         self.driver = driver
-        self.ww = WebDriverWait(self.driver, 20)
 
         # Locators:
-        self.manage_tab = "button[data-qa='header-MANAGE-tab-button']"
+        self.manage_tab = "//button[@data-qa='header-MANAGE-tab-button']"
         self.sent_box = "button[data-qa='manage-sidebar-labels-sent-label']"
         self.select_envelope_docx = "//div[contains(text(), " + constants.envelope_file_docx + ")]"
         self.open_document = "//a[@data-qa='page-thumbnail']"
@@ -39,11 +31,13 @@ class Verify_Data():
         self.run_report = "button[data-qa='run-report']"
         self.report_result = "(//tr[@data-qa='report-result-row'])[1]"
         self.report_download = "//button[@data-qa='report-download-icon']"
+        self.user_label = "//span[contains(text(), 'User')]"
 
     # Verify date format on Envelope
-    def verify_data(self):
-        self.ww.until(EC.element_to_be_clickable((By.CSS_SELECTOR, self.manage_tab))).click()
-        self.ww.until(EC.element_to_be_clickable((By.CSS_SELECTOR, self.sent_box))).click()
+    def verify_dateFormat(self):
+        manageTab = WebDriverWait(self.driver, 40).until(EC.visibility_of_element_located((By.XPATH, self.manage_tab)))
+        manageTab.click()
+        WebDriverWait(self.driver, 10).until(EC.element_to_be_clickable((By.CSS_SELECTOR, self.sent_box))).click()
         WebDriverWait(self.driver, 10).until(EC.element_to_be_clickable((By.XPATH, self.select_envelope_docx))).click()
         WebDriverWait(self.driver, 10).until(EC.element_to_be_clickable((By.XPATH, self.open_document))).click()
         time.sleep(10)
@@ -58,38 +52,12 @@ class Verify_Data():
         time.sleep(2)
         self.driver.close()
         self.driver.switch_to.window(parentWindow)
-        # time.sleep(10)
-        # # pdb.set_trace()
-        # url = self.driver.current_url
-        # try:
-        #     req = Request(url, headers={'User-Agent': 'Mozilla/5.0'})
-        #     webpage = urlopen(req).read()
-        #     print(webpage)
-        # except HTTPError as error:
-        #     logging.error('HTTP Error')
-        # except URLError as error:
-        #     if isinstance(error.reason, timeout):
-        #         logging.error('Timeout Error')
-        #     else:
-        #         logging.error('URL Error')
-        # else:
-        #     logging.info('Access successful.')
-
-        # print(pdfData)
-        # with urllib.request.urlopen(self.driver.current_url) as pdfDataFile:
-        #     pdfData = pdfDataFile.read().decode('utf-8')
-        #     print(pdfData)
-        # pdfReader = PyPDF2.PdfFileReader(pdfDataFile)
-        # print(pdfReader.numPages)
-        # pageObject = pdfReader.getPage(0)
-        # print(pageObject.extractText())
-        # for pdfData in pdfReader:
-        #     print(pdfData)
-        # self.driver.switch_to.window(parentWindow)
 
     # Verify Envelope history
-    def envelope_history(self):
-        WebDriverWait(self.driver, 20).until(EC.element_to_be_clickable((By.CSS_SELECTOR, self.manage_tab))).click()
+    def verify_envelope_history(self):
+        manageTab = WebDriverWait(self.driver, 40).until(
+            EC.visibility_of_element_located((By.XPATH, self.manage_tab)))
+        manageTab.click()
         WebDriverWait(self.driver, 10).until(EC.element_to_be_clickable((By.CSS_SELECTOR, self.sent_box))).click()
         WebDriverWait(self.driver, 10).until(EC.element_to_be_clickable((By.XPATH, self.select_envelope_docx))).click()
         WebDriverWait(self.driver, 10).until(EC.element_to_be_clickable((By.CSS_SELECTOR, self.more_document))).click()
@@ -101,23 +69,33 @@ class Verify_Data():
             if handle != main_window:
                 popup = handle
                 self.driver.switch_to.window(popup)
-        self.driver.execute_script("window.scrollTo(0, 1000);")
-        time.sleep(10)
+        label1 = self.driver.find_element(By.XPATH, self.user_label)
+        time.sleep(2)
+        self.driver.save_screenshot(constants.screenshot + '/UserName_UserAPI.png')
+        scroll_origin = ScrollOrigin.from_element(label1)
+        ActionChains(self.driver).scroll_from_origin(scroll_origin, 0, 500).perform()
+        time.sleep(5)
+        self.driver.save_screenshot(constants.screenshot + '/Signature_AdoptedSignature_IDs.png')
+        userLabel = self.driver.find_element(By.XPATH, self.user_label).text
+        print(userLabel)
         text_userName = self.driver.find_element(By.XPATH, self.user_name_text).text
         print(text_userName)
+        assert constants.senderName in text_userName
+        # assert constants.userAPI in text_userName
         text_signatureID = self.driver.find_element(By.XPATH, self.signature_id).text
         print(text_signatureID)
+        assert constants.signatureID in text_signatureID
+        assert constants.adoptedSignatureID in text_signatureID
         self.driver.find_element(By.XPATH, self.close_button).click()
         self.driver.switch_to.window(parentWindow)
         WebDriverWait(self.driver, 10).until(EC.element_to_be_clickable((By.XPATH, self.reports_tab))).click()
-        # pdb.set_trace()
         WebDriverWait(self.driver, 10).until(EC.element_to_be_clickable((By.XPATH, self.envelope_option))).click()
         WebDriverWait(self.driver, 10).until(EC.element_to_be_clickable((By.XPATH, self.view_button))).click()
         WebDriverWait(self.driver, 10).until(
             EC.element_to_be_clickable((By.CSS_SELECTOR, self.report_range_menu))).click()
-        self.ww.until(EC.element_to_be_clickable((By.CSS_SELECTOR, self.date_range_any))).click()
-        self.ww.until(EC.element_to_be_clickable((By.CSS_SELECTOR, self.run_report))).click()
-        report_result = self.ww.until(EC.element_to_be_clickable((By.XPATH, self.report_result))).text
+        WebDriverWait(self.driver, 10).until(EC.element_to_be_clickable((By.CSS_SELECTOR, self.date_range_any))).click()
+        WebDriverWait(self.driver, 10).until(EC.element_to_be_clickable((By.CSS_SELECTOR, self.run_report))).click()
+        report_result = WebDriverWait(self.driver, 10).until(EC.element_to_be_clickable((By.XPATH, self.report_result))).text
         print(report_result)
-        download = self.ww.until(EC.element_to_be_clickable((By.XPATH, self.report_download)))
+        download = WebDriverWait(self.driver, 10).until(EC.element_to_be_clickable((By.XPATH, self.report_download)))
         self.driver.execute_script("arguments[0].click();", download)

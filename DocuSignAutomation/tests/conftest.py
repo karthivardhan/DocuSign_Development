@@ -1,4 +1,3 @@
-import time
 from selenium import webdriver
 import pytest
 from selenium.webdriver.chrome.service import Service
@@ -21,7 +20,7 @@ def test_setup(request):
         driver = webdriver.Safari()
     driver.implicitly_wait(3)
     driver.maximize_window()
-    # driver.delete_all_cookies()
+    driver.delete_all_cookies()
     request.cls.driver = driver
     yield
-    driver.quit()
+    # driver.quit()
